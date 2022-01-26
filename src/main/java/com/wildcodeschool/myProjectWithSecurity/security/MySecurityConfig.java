@@ -34,6 +34,4 @@ public class MySecurityConfig extends WebSecurityConfigurerAdapter {
 				.password(encoder.encode("flerken"))
 					.roles("DIRECTOR");
 	}
-	
-
 }
